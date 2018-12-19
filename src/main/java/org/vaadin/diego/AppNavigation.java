@@ -17,7 +17,6 @@ import com.vaadin.flow.router.AfterNavigationEvent;
 import com.vaadin.flow.router.AfterNavigationObserver;
 
 @Tag("app-navigation")
-@HtmlImport("frontend://styles/app-navigation.html")
 public class AppNavigation extends Div implements AfterNavigationObserver
 {
     private static final long serialVersionUID = 1L;
